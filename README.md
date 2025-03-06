@@ -37,3 +37,9 @@ Restore specific tables from a database dump
 
 One can change the table name and add n number of tables in the script. They will be loaded into the array.
 Remember to edit the database credentials.
+
+# enable-cw-cpu-status
+Copy script and run the script providing instance name and profile.
+Choose and confirm parameters like Instance ID, SNS, Alarm Name.
+
+The script will enable CPU utilization alarm for greater than 90% and Status check alarm (with reboot) with action as specified existing SNS topic. 
